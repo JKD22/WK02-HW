@@ -218,6 +218,21 @@ input[type=submit] {
   border: 0 none;
 }
 
+.floatRight {
+  float: right;
+}
+
+
+
+@media only screen and (max-width: 640px) {
+  .mobileNavWidth {
+    width: 33%;
+  }
+  #logo {
+    width: 100%;
+  }
+}
+
 /* @media only screen and (max-width: 980px) {
   #logo,
   body,
